@@ -35,6 +35,9 @@ COLORS = {
 }
 
 # === Initialize Pygame and set up window ===
+# I have an .exe that should fetch the music file from the same directory as the executable.
+base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+music_path = os.path.join(base_path, 'snoozy beats - dreams in slow motion.mp3')
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Hiss & Go Seek - Pygame Full Edition')
@@ -44,7 +47,7 @@ music_on = True
 
 # === Load background music (optional) ===
 try: 
-    pygame.mixer.music.load('snoozy beats - dreams in slow motion.mp3') # Load music file
+    pygame.mixer.music.load(music_path) # Load music file
     pygame.mixer.music.set_volume(0.5)  # Set volume to 50%
     pygame.mixer.music.play(-1)  # Play indefinitely
 except:
