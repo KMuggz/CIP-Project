@@ -36,4 +36,4 @@ Song : Dreams in slow motion by Snoozy Beats (lo-fi instrumental)
 1. Install Python 3.10 or 3.11  
 2. Install Pygame:
 
-PS: This game is not perfected yet, so any input or positive criticisma is very much welcome :)
+PS: This game is not perfected yet, so any input or positive criticism is very much welcome :)
