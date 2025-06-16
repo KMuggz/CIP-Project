@@ -33,6 +33,10 @@ Song : Dreams in slow motion by Snoozy Beats (lo-fi instrumental)
 
 ## 🚀 How to Run
 
+-> To run the executable
+Open dist for the snake_game.exe
+
+-> To run via Python
 1. Install Python 3.10 or 3.11  
 2. Install Pygame:
 
