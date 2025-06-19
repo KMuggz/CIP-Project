@@ -39,5 +39,6 @@ Open dist for the snake_game.exe
 -> To run via Python
 1. Install Python 3.10 or 3.11  
 2. Install Pygame:
+3. Check if you have all dependancies listed on requirements.txt
 
 PS: This game is not perfected yet, so any input or positive criticism is very much welcome :)
